@@ -1,0 +1,401 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.navbar{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+}
+.brand img{
+    padding: 20px;
+}
+.navbar-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    cursor: pointer;
+    color: #999999 ;
+    font-family: 'Hind', 'Arial', 'sans-serif', sans-serif;
+}
+.navbar-menu li:hover{
+    color: white;
+}
+.navbar-icon{
+    padding: 20px;
+    color: #999999;
+}
+.navbar-icon i{
+    padding-right: 10px;
+}
+.navbar-icon i:hover{
+    color: white;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.slide-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(http://preview.treethemes.com/hazel/demo1/wp-content/uploads/sites/3/2021/04/01596free.jpg);
+}
+.slide-text{
+    color: #333;
+    font-size: 30px;
+    letter-spacing: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slide-bar-buttons{
+    display: flex;
+    justify-content: center;
+}
+.slide-bar-buttons p{
+    font-style:italic ;
+    margin: 15px 40px;
+}
+.slide-button{
+    font-weight: bold;
+    padding: 15px 60px;
+    background-color: #F0EFF5;
+    border:1px solid black;
+}
+.slide-button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.triple-bar{
+    display: flex;
+    justify-content: center;
+    padding: 0px 300px;
+    color: #333;
+}
+.triple-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 40px;
+}
+.triple-section i{
+    font-size: 30px;
+}
+.triple-section h5{
+    letter-spacing: 5px;
+}
+.triple-section p{
+    text-align: center;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.device{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+.device-text{
+    width: 35%;
+    color: #333;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.device .device-bg{
+    width: 50%;
+    padding-top: 60vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #F7F7F7;
+    background-image: url(https://preview.treethemes.com/hazel/demo1/wp-content/uploads/sites/3/2021/04/mockup2.png);
+}
+.device .device-button{
+    margin-top: 40px;
+    width: 220px;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.device-button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+.device-text h2{
+    letter-spacing: 10px;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.cameron{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vh 40vh;
+}
+.cameron h1{
+    font-family: 'Josefin Sans', 'Arial', 'sans-serif';
+    color: #303030;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+.cameron-sections{
+    display: flex;
+    padding-top: 50px;
+}
+.cameron-section{
+    width: 120%;
+}
+.cameron-section h6 {
+    letter-spacing: 5px;
+}
+.cameron-section h5{
+    font-size: 10px;
+    letter-spacing: 10px;
+    margin: 5px;
+}
+.cameron-scale {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+}
+.skill {
+    background-color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 0px;
+}
+.dev {
+    width: 95%;
+}
+.design{
+    width: 85%;
+}
+.market{
+    width: 70%;
+}
+.cons{
+    width: 65%;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.agency{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b8b8b8;
+    background-image: url(https://preview.treethemes.com/hazel/demo1/wp-content/uploads/sites/3/2021/04/432423.jpg);
+}
+.agency-sections{
+    display: flex;
+    align-items: center;
+    padding:10vh 20vh;
+}
+.agency-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0vh 10vh;
+}
+.agency h4{
+    padding-top: 10vh;
+    margin-bottom: 0px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.agency-section i{
+    font-size: 50px;
+}
+.agency-section h3{
+    margin:10px  0px;
+    font-size: 40px
+}
+.agency-section p{
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.services{
+    color: #595959;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services h2{
+    padding-top: 5vh;
+    letter-spacing: 5px;
+}
+.services-sections{
+    padding: 100px 200px;
+}
+.services-section-top{
+    display: flex;
+    align-content: center;
+}
+.services-section-bottom{
+    display: flex;
+    align-content: center;
+}
+.services-card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.services-section-bottom .services-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+.services-card i{
+    font-size: 5vh;
+}
+.services-card h5{
+    letter-spacing: 5px;
+}
+.services-card p{
+    width: 40vh;
+    text-align: center;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.hazel{
+    background-color: black;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.hazel-button{
+    border: 1px solid white;
+    width: 300px;
+    padding: 10px 0px;
+    margin-left: 750px;
+}
+.hazel-button:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.work{
+    letter-spacing: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+.work h6{
+    font-size: 12px;
+}
+.work h6:hover{
+    color:rgb(192, 192, 192);
+    transition: .5s;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.pictures-top{
+    display: flex;
+    margin-bottom: -5px;
+}
+.pictures-bottom{
+    display: flex;
+}
+.pictures-card img{
+    width: 500px;
+    height: 350px;
+}
+.pictures-card img:hover{
+	filter: brightness(0%);
+    transition: .7s;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.client-part{
+    text-align: center;
+    color: #333;
+}
+.client-part h2{
+    letter-spacing: 10px;
+    padding: 5vh;
+}
+.ctext{
+    display: flex;
+    padding: 25px 40px;
+}
+.client-pp img{
+    border-radius: 100%;
+}
+.clients{
+    display: flex;
+    justify-content: space-around;
+}
+.client{
+    width: 25%;
+}
+.client p{
+    width: 40vh;
+}
+/*
+  * ----------------------------------------------------------------------------------------
+*/
+.footer{
+    background-color:#F0EFF5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+    color: #303030;
+}
+.footer-icon i:hover{
+    color:#b8b8b8;
+    transition: .5s;
+}
+.footer-icon i{
+    padding: 1vh;
+}
+.footer img{
+    padding-bottom: 3vh;
+}
+.footer p{
+    color: #999999;
+}
+.footer a{
+    color: #333;
+}
+
+
+
+
+
+ 
+  
+  
